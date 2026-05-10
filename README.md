@@ -5,6 +5,30 @@
  
 ## Work Experience
 
+### Software Development Engineer at [Verbaflo AI](https://uk.linkedin.com/company/verbaflo-ai/)
+_May 2025 - Present_
+
+- Owned and shipped features across **10 microservices** spanning **Python (FastAPI)** and **Node.js/TypeScript (Express)**, serving **50+ property management clients** across UK and US regions.
+- Built a full-scale **helpdesk ticketing system** from scratch with tickets, knowledge base support for **PDF/XLSX/DOCX preview**, SLA tracking, custom fields, category-based RBAC, activity logs, mentions with notifications, AI-powered ticket summarization, and reporting dashboards — reducing client support resolution time.
+- Engineered a **knowledge base management platform** with a complete document lifecycle including upload, ingest, preview, download, publish, soft-delete, undo, and re-ingest workflows.
+- Built an **Unanswered Query Management System** that captures AI-failed queries, de-duplicates by query text, enriches lead metadata, and creates answer chunks directly in the **Milvus** vector database to continuously improve AI accuracy.
+- Developed a complete **WhatsApp template lifecycle management system** including template sync with the WhatsApp Business API, webhook-based approval/rejection handling, scheduled status refresh jobs, and automated template deletion workflows.
+- Developed a **Flagged Response System** with environment-isolated MongoDB collections, enabling response flagging/unflaging across testing and production environments with background activity logging and real-time analytics aggregation.
+- Made the platform fully **real-time using Socket.IO**, implementing WebSocket rooms with join/leave lifecycle management for document ingestion status updates, flagged response broadcasts, and live chat thread refreshes without polling.
+- Developed a multi-format **document ingestion pipeline** using the **Factory Pattern** with dedicated chunkers for PDF (**PyMuPDF**), Word, Excel, and websites, along with reconstructors for downloadable document conversion.
+- Built a **channel-aware analytics engine** using the **Strategy Pattern** to aggregate WhatsApp and Widget metrics including AI prompt counts, response times, ingestion costs, document counts, and sync statuses through concurrent aggregation workflows.
+- Created a scalable **URL shortener microservice** with **Redis caching**, **Docker** containerization, and multi-environment deployment support.
+
+### Software Development Engineer Intern at [Verbaflo AI](https://uk.linkedin.com/company/verbaflo-ai/)
+_October 2024 - April 2025_
+
+- Architected a multi-channel chat platform supporting **WhatsApp**, **Email**, and **Web Widget** integrations using abstract message handling patterns with **FastAPI** and **MongoDB**, unifying communication workflows across channels.
+- Built a **WhatsApp webhook processing system** handling 10+ event types including new messages, delivery receipts, read receipts, template lifecycle events, reactions, and replies using an event-handler architecture with abstract base classes and idempotent processing.
+- Implemented duplicate event detection, media attachment extraction with type mapping, background task delegation for non-blocking execution, and webhook-driven campaign tracking for delivery/open analytics.
+- Built end-to-end **Voice AI integrations** including inbound call handling, transcript retrieval, dynamic assistant fetching, tool calls, and post-call WhatsApp messaging coordination.
+- Developed the core **AI conversational engine** with LLM-powered lead qualification, property recommendations, chain-of-thought tag extraction, and conversation summarization using the **OpenAI API**.
+- Built the analytics dashboards using **MongoDB aggregation pipelines** for visitor tracking, engaged chats, qualified leads, and modality-wise cost analytics across calls, emails, and WhatsApp.
+
 ### Backend Developer at [Bestinhere](https://www.linkedin.com/company/bestinhere/)
 _January 2024 - June 2024_
 
